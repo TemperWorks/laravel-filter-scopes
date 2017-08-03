@@ -1,0 +1,33 @@
+{
+    "name": "temperworks/laravel-filter-scopes",
+    "description": "Seperate model filters into reusable scopes that map into the right filters based on URL params.",
+    "type": "package",
+    "homepage": "https://github.com/temperworks/laravel-filter-scopes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yordi de Kleijn",
+            "email": "yordi@temper.works",
+            "homepage": "https://temper.works",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "TemperWorks\\FilterScopes\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+
+            ]
+        }
+    }
+}
